@@ -1,0 +1,81 @@
+.element {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.element .overlap {
+  height: 615px;
+  left: 0;
+  position: absolute;
+  top: -1px;
+  width: 1440px;
+}
+
+.element .nav-bar {
+  background-color: #f2ee9d;
+  height: 68px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  transform: rotate(0.04deg);
+  width: 1440px;
+}
+
+
+.element .profile {
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 83px;
+  width: 49px;
+}
+
+
+.element .search-bar {
+  background-color: #557A46;
+  height: 57px;
+  left: 1105px;
+  position: absolute;
+  top: 9px;
+  width: 329px;
+  border-radius: 10px;
+}
+
+.element .video-display {
+  background-color: #F2EE9D;
+  height: 484px;
+  left: 45px;
+  position: absolute;
+  top: 131px;
+  width: 903px;
+  border-radius: 10px;
+}
+
+.element .classroom {
+  background-color: #557a46;
+  border-radius: 32px;
+  height: 476px;
+  left: 1047px;
+  position: absolute;
+  top: 130px;
+  width: 364px;
+}
+input{
+  height: 57px;
+  left: 1300px;
+  top: 9px;
+  width: 329px;
+  border-radius: 10px;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+p{
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight:lighter;
+}
